@@ -79,7 +79,7 @@ def make_graphs(dataframe, name_season):
     fig.update_yaxes(title_text = "%Positive", range = list([0,100]), secondary_y = True)
     fig.show()
     #print(str(os.path.dirname(os.getcwd()) + "/ANTH_1913/" + name_season.split(" ")[0] + "_" + name_season.split(" ")[1] + ".html"))
-    fig.write_html(str(os.path.dirname(os.getcwd()) + "/ANTH_1913/" + name_season.split(" ")[0] + "_" + name_season.split(" ")[1] + ".html"))
+    fig.write_html(str(os.path.dirname(os.getcwd()) + "/ANTH_1913/plots/" + name_season.split(" ")[0] + "_" + name_season.split(" ")[1] + ".html"))
     
     
 '''MAIN METHOD'''
